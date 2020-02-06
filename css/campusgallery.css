@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century Gothic;
+    }
+    header{
+        margin-top: 10px;
+        background-image:linear-gradient(rgba(65, 59, 59, 0.5),rgba(119, 116, 116, 0.5)), url(../ankita12.jpg);
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+    }
+    ul{
+        float:right;
+        margin: 0px;
+        padding: 0px;
+        list-style:none;
+        margin-top: 20px;
+    }
+    ul li {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    }
+    ul li a{ 
+        text-decoration: darkgoldenrod;
+        color: #fff;
+        padding: 4px 20px;
+        border: 1px solid transparent;
+        transition: 0.3s ease;
+    }
+    ul li a:hover{
+        background-color: bisque;
+        color: black;
+    }
+    ul li.active a{
+        background-color: bisque;
+        color: rgba(0, 0, 0, 0.521);
+    
+    }
+    .logo img{
+        float: left;
+        width: 400px;
+        height: auto;
+    }
+    .main{
+        max-width: 1700px;
+        margin: auto;
+    }
+    ul li ul li {
+        display: none;
+    }
+    ul li:hover ul li {
+        display: block;
+    }
+    marquee{
+        float: right;
+        color: #fff;
+    }

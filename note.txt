@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<ul>
+<li>Home</li>
+<li><a>About</a>
+<li>our team</li>  
+<li>camp size</li>  
+<li>mission</li>  
+</li>
+<li><a>things to do</a>   
+<li>go</li>  
+<li>come</li>  
+<li>far</li>  
+</li>
+<ol type=none><a>news</a>
+<li><a>we</a></li>  
+<li><a>are</a></li>  
+<li><a>best</a></li></ol>
+</ul>
+
+</body>
+</html>
